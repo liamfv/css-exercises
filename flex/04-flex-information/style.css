@@ -25,6 +25,7 @@ img {
   display: flex;
   flex-direction: column;
   width: 200px;
+  align-items: center;
 }
 .text{
   text-align: center;
