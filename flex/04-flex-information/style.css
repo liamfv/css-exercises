@@ -13,6 +13,22 @@ img {
   text-align: center;
 }
 
+.big-container{
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+  gap: 32px;
+
+}
+
+.first-container, .second-container, .third-container, .fourth-container{
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+.text{
+  text-align: center;
+}
 /* do not edit this footer */
 .footer {
   position: fixed;
