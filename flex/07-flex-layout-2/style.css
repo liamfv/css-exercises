@@ -8,11 +8,15 @@ body {
 
 ul{
   list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
 a{
   text-decoration: none;
   color: #FFF;
+  display: block;
+  margin-bottom: 20px;
 }
 
 .header {
@@ -27,7 +31,7 @@ a{
 }
 
 .footer {
-  height: 72px;
+  min-height: 72px;
   background: #eee;
   color: darkmagenta;
   flex-shrink: 0;
@@ -36,9 +40,10 @@ a{
 }
 
 .sidebar {
-  width: 300px;
+  min-width: 320px;
   background: royalblue;
   box-sizing: border-box;
+  padding: 16px;
 }
 
 .card {
