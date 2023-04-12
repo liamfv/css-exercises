@@ -16,11 +16,11 @@ a{
 }
 
 .header {
-  height: 52px;
+  height: 72px;
   background: darkmagenta;
   color: white;
-  font-weight: 800;
-  font-size: 24px;
+  font-weight: 900;
+  font-size: 32px;
   display: flex;
   align-items: center;
   padding-left: 14px;
@@ -30,6 +30,9 @@ a{
   height: 72px;
   background: #eee;
   color: darkmagenta;
+  flex-shrink: 0;
+  text-align: center;
+  padding: 8px;
 }
 
 .sidebar {
@@ -46,5 +49,18 @@ a{
 
 .content{
   display: flex;
+  align-items: stretch;
+  min-height: 85vh;
 }
 
+.cards{
+  display: flex;
+  padding: 32px;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.card{
+  width: 300px;
+  
+}
