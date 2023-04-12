@@ -60,7 +60,7 @@ a{
 
 .cards{
   display: flex;
-  padding: 32px;
+  padding: 36px;
   gap: 24px;
   flex-wrap: wrap;
 }
