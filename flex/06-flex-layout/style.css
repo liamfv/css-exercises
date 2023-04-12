@@ -67,4 +67,5 @@ a{
   background-color: #eee;
   padding: 16px;
   display: flex;
+  flex-shrink: 0;
 }
