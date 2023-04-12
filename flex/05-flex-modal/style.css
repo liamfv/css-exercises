@@ -66,12 +66,22 @@ button.cancel {
 }
 .modal{
   display: flex;
+  padding: 16px;
+  gap: 16px;
 }
 
 .left-container{
-  border: 2px solid black;
   flex-shrink: 0;
 }
 .right-container {
-  border: 2px solid black;
+  /*border: 2px solid black;*/
+}
+
+.right-top-container {
+  display: flex;
+}
+
+.header {
+  font-weight: 700;
+  font-size: 20px;
 }
