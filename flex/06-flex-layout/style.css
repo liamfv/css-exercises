@@ -28,9 +28,29 @@ input {
 
 ul {
   list-style-type: none;
+  padding-inline-start: 0;
+  margin: 0;
 }
 
 a{
   text-decoration: none;
   color: #5a5a5a;
 }
+
+.header{
+  display: flex;
+  padding: 16px;
+}
+
+.left-links{
+  display: flex;
+  gap: 12px;
+  margin-right: auto;
+}
+
+.right-links{
+  display: flex;
+  gap: 12px;
+}
+
+
