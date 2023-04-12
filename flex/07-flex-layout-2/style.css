@@ -6,6 +6,15 @@ body {
   flex-direction: column;
 }
 
+ul{
+  list-style-type: none;
+}
+
+a{
+  text-decoration: none;
+  color: #FFF;
+}
+
 .header {
   height: 52px;
   background: darkmagenta;
@@ -38,3 +47,4 @@ body {
 .content{
   display: flex;
 }
+
