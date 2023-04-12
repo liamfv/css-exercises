@@ -17,6 +17,7 @@ a{
   color: #FFF;
   display: block;
   margin-bottom: 20px;
+  font-size: 24px;
 }
 
 .header {
@@ -61,7 +62,7 @@ a{
 
 .cards{
   display: flex;
-  padding: 36px;
+  padding: 32px;
   gap: 24px;
   flex-wrap: wrap;
 }
