@@ -74,14 +74,22 @@ button.cancel {
   flex-shrink: 0;
 }
 .right-container {
-  /*border: 2px solid black;*/
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
 
 .right-top-container {
   display: flex;
+  align-items: flex-start;
 }
 
 .header {
   font-weight: 700;
   font-size: 20px;
+  flex: 1;
+}
+
+.options {
+  margin-top: 8px;
 }
