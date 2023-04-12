@@ -63,3 +63,8 @@ a{
   align-items: center;
 }
 
+.footer {
+  background-color: #eee;
+  padding: 16px;
+  display: flex;
+}
